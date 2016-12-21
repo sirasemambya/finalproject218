@@ -14,19 +14,20 @@ require('layout/header.php');
 
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-			
+
 			<li>
-							<a href='#'>Login as <?php echo $_SESSION['username']; ?></a>
+							<a href='#'>Logged in as <?php echo $_SESSION['username']; ?></a>
 					</li>
 					<li>
 							<a href='memberpage.php'>Home</a>
 					</li>
 					<li>
 							<a href='profile.php'>Profile</a>
+							<li>
+									<a href="table.php">Members Table</a>
+							</li>
 					</li>
-					<li>
-							<a href="table.php">Members Table</a>
-					</li>
+
 					<li>
 							<a href='edit.php'>Edit User Profile</a>
 					</li>
@@ -41,14 +42,14 @@ require('layout/header.php');
 	    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
 				<h2> IS 218 - Sira Semambya Final Project</h2>
 				<h2>Welcome <?php echo $_SESSION['username']; ?></h2>
-				
+
 				<hr>
 
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
-			
+
 			<img class="img-responsive" src="img/keith.jpeg" alt="">
 
 </div>
