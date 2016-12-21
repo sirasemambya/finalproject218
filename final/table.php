@@ -7,7 +7,8 @@ if(!$user->is_logged_in()){ header('Location: login.php'); }
 $title = 'Table';
 
 //include header template
-require('layout/header.php'); 
+
+require('layout/header.php');
 ?>
 
 <div class="container">
@@ -15,8 +16,9 @@ require('layout/header.php');
     <div class="row">
 
         <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
-            
+
                 <h2>Member's Database</h2>
+                <!-- top header-->
                 <p>
 				<a href='#'>Login as <?php echo $_SESSION['username']; ?></a>
 				<a href='memberpage.php'>Home</a>
@@ -29,7 +31,7 @@ require('layout/header.php');
         </div>
   <div id="ccontent">
   <p>
-  <?php 
+  <?php
   $con=mysqli_connect("sql2.njit.edu","sbs43","hurrah37","sbs43");
 // Check connection
 if (mysqli_connect_errno())
@@ -57,19 +59,19 @@ echo "</tr>";
 echo "</table>";
 
 mysqli_close($con);
-  
-  
+
+
   ?>
   </p>
- 
-  
+
+
   </div>
     </div>
 
 
 </div>
 
-<?php 
+<?php
 //include header template
-require('layout/footer.php'); 
+require('layout/footer.php');
 ?>

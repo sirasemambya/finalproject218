@@ -7,11 +7,12 @@ if(!$user->is_logged_in()){ header('Location: login.php'); }
 $title = 'Profile';
 
 //include header template
-require('layout/header.php');  
+require('layout/header.php');
 ?>
 
 <html lang="en">
 
+  <!-- boostrap template -->
 <head>
 
     <meta charset="utf-8">
@@ -96,7 +97,7 @@ require('layout/header.php');
 
             <div class="col-md-4">
                 <h3>Member ID: <?php echo $_SESSION['memberID']; ?></h3>
-               
+
             </div>
 
         </div>

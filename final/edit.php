@@ -7,9 +7,9 @@ if(!$user->is_logged_in()){ header('Location: login.php'); }
 $title = 'Edit Profile';
 
 //include header template
-require('layout/header.php');  
+require('layout/header.php');
 ?>
-
+<!-- boostrap template -->
 <html lang="en">
 
 <head>
@@ -49,7 +49,9 @@ require('layout/header.php');
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-				<li>
+                  <!-- top header -->
+
+        <li>
                       <a href="memberpage.php">Home</a>
                   </li>
                     <li>
@@ -66,7 +68,7 @@ require('layout/header.php');
                     </li>
                 </ul>
             </div>
- 
+
         </div>
 
     </nav>
@@ -74,7 +76,7 @@ require('layout/header.php');
             <div class="col-lg-12">
                 <h1 class="page-header">
                  Edit Your Profile
-                   
+
                 </h1>
             </div>
         </div>
