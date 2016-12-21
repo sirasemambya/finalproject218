@@ -6,7 +6,6 @@ Working demo at https://web.njit.edu/~sbs43/is218/final/index.php
 
 Sira Semambya's IS218 Final project. This website allows you to login and registration.
 
-<img src="https://s27.postimg.org/h9c8nb3qb/nnn.png" alt="Login Page Screenshot" />
 
 ## Installation
 ### Clone the Repository
