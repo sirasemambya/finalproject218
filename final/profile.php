@@ -52,19 +52,23 @@ require('layout/header.php');
                 <ul class="nav navbar-nav">
 				<li>
                       <a href='memberpage.php'>Home</a>
-                  </li>
-                    <li>
-                      <a href='profile.php'>Profile</a>
-                  </li>
-                  <li>
+        </li>
+
+        <li>
                       <a href="table.php">Members Table</a>
-                  </li>
-				  <li>
+        </li>
+
+        <li>
+                      <a href='profile.php'>Profile</a>
+       </li>
+
+			  <li>
                       <a href='edit.php'>Edit User Profile</a>
-                    </li>
-                  <li>
+       </li>
+
+        <li>
                       <a href='logout.php'>Logout</a>
-                    </li>
+       </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
