@@ -22,8 +22,8 @@ require('layout/header.php');
                 <p>
 				<a href='#'>Login as <?php echo $_SESSION['username']; ?></a>
 				<a href='memberpage.php'>Home</a>
+        <a href='table.php'>Table</a>
 				<a href='profile.php'>Profile</a>
-				<a href='table.php'>Table</a>
 				<a href='edit.php'>Edit User Profile</a>
 				<a href='logout.php'>Logout</a></p>
                 <hr>
