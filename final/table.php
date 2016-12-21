@@ -20,7 +20,7 @@ require('layout/header.php');
                 <h2>Member's Database</h2>
                 <!-- top header-->
                 <p>
-				<a href='#'>Login as <?php echo $_SESSION['username']; ?></a>
+				<a href='#'>Logged as <?php echo $_SESSION['username']; ?></a>
 				<a href='memberpage.php'>Home</a>
         <a href='table.php'>Table</a>
 				<a href='profile.php'>Profile</a>
