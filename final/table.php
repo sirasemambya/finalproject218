@@ -47,7 +47,6 @@ echo "<table border='1'>
 <th>Email</th>
 </tr>";
 
-
 while($row = mysqli_fetch_array($result))
 {
 echo "<tr>";
